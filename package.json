@@ -1,0 +1,50 @@
+{
+  "name": "task-filter",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "14"
+  },
+  "main": "src/init.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.12.1",
+    "@babel/runtime": "^7.12.1",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
+    "core-js": "^3.6.5",
+    "i18next": "^19.8.2",
+    "jquery": "^3.5.1",
+    "lodash": "^4",
+    "on-change": "^2.1.4",
+    "path-browserify": "^1.0.1",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.7",
+    "smev-filter": "../task-parser",
+    "string_decoder": "^1.3.0",
+    "tether": "^1.4.7",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "postcss": "^8.1.2",
+    "postcss-loader": "^4.0.4",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
